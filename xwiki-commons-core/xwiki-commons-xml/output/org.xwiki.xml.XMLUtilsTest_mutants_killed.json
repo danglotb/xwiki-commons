@@ -1,0 +1,976 @@
+{
+  "nbMutantKilledOriginally": 125,
+  "name": "org.xwiki.xml.XMLUtilsTest",
+  "nbOriginalTestCases": 21,
+  "testCases": [
+    {
+      "name": "escapeEmptyString_literalMutationString23582_literalMutationString23597",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeNonAscii_literalMutationString24159_literalMutationString24179_literalMutationString24266",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContent_literalMutationString16866_literalMutationString17123_literalMutationString19172",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 3,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 295,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 292,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escape_literalMutationString20_literalMutationString495",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 5,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 251,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValue_literalMutationString7881",
+      "nbAssertionAdded": 24,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 6,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 251,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeNonAscii_literalMutationString24158",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValueNonAscii_literalMutationString16571_literalMutationString16586_literalMutationString16650",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeEmptyString_literalMutationString23581_literalMutationString23595_literalMutationString23652",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeEmptyString_literalMutationString23581_literalMutationString23595_literalMutationString23651",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeNonAscii_literalMutationString24158_literalMutationString24174_literalMutationString24239",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeFAttributeValueEmptyString_literalMutationString23870_literalMutationString23886",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeFAttributeValueEmptyString_literalMutationString23870_literalMutationString23887",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeFAttributeValueEmptyString_literalMutationString23870_literalMutationString23885_literalMutationString23949",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValueNonAscii_literalMutationString16572",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValueNonAscii_literalMutationString16570_literalMutationString16583_literalMutationString16635",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValueApos_literalMutationString14866",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentEmptyString_literalMutationString23006_literalMutationString23025",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 295,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 292,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escape_literalMutationString3_literalMutationString128",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentEmptyString_literalMutationString23006_literalMutationString23021",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeFAttributeValueEmptyString_literalMutationString23870_literalMutationString23886_literalMutationString23951",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeFAttributeValueEmptyString_literalMutationString23870_literalMutationString23886_literalMutationString23953",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeNonAscii_literalMutationString24158_literalMutationString24175_literalMutationString24248",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentEmptyString_literalMutationString23006",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escape_literalMutationString18_literalMutationString449_literalMutationString1891",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeXMLComment_literalMutationString24453_literalMutationString24663_literalMutationString27409",
+      "nbAssertionAdded": 12,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 170,
+          "locationMethod": "escapeXMLComment"
+        }
+      ]
+    },
+    {
+      "name": "escapeEmptyString_literalMutationString23582_literalMutationString23599_literalMutationString23672",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContent_literalMutationString16864_literalMutationString17077",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 3,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 295,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 292,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escape_literalMutationString2",
+      "nbAssertionAdded": 20,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 5,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 251,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentNonAscii_literalMutationString23294",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContent_literalMutationString16866",
+      "nbAssertionAdded": 20,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 3,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 295,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 292,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValue_literalMutationString7882_literalMutationString8117_literalMutationString11191",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 5,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 251,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escape_literalMutationString14_literalMutationString369_literalMutationString3066",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 5,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 251,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeNonAscii_literalMutationString24158_literalMutationString24175",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeNonAscii_literalMutationString24158_literalMutationString24174",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentNonAscii_literalMutationString23294_literalMutationString23311_literalMutationString23381",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 292,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentNonAscii_literalMutationString23294_literalMutationString23313",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContent",
+      "nbAssertionAdded": 11,
+      "nbInputAdded": 0,
+      "nbMutantKilled": 3,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 295,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 292,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeApos_literalMutationString6172",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValueNonAscii_literalMutationString16572_literalMutationString16592",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValueNonAscii_literalMutationString16572_literalMutationString16590",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentNonAscii_literalMutationString23295_literalMutationString23316",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 292,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValueNonAscii_literalMutationString16572_literalMutationString16589_literalMutationString16660",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeEmptyString_literalMutationString23583_literalMutationString23603_literalMutationString23691",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeEmptyString_literalMutationString23582_literalMutationString23601",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentNonAscii_literalMutationString23294_literalMutationString23310_literalMutationString23375",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeEmptyString_literalMutationString23582",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeEmptyString_literalMutationString23582_literalMutationString23600",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValue_literalMutationString7886_literalMutationString8226",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 6,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 251,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentEmptyString_literalMutationString23006_literalMutationString23021_literalMutationString23082",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 289,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeXMLComment_literalMutationString24453_literalMutationString24663",
+      "nbAssertionAdded": 12,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 170,
+          "locationMethod": "escapeXMLComment"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValue",
+      "nbAssertionAdded": 12,
+      "nbInputAdded": 0,
+      "nbMutantKilled": 6,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 260,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 251,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 248,
+          "locationMethod": "escapeAttributeValue"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeFAttributeValueEmptyString_literalMutationString23870",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentEmptyString_literalMutationString23006_literalMutationString23025_literalMutationString23105",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 295,
+          "locationMethod": "escapeElementContent"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 292,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValueNonAscii_literalMutationString16570_literalMutationString16584_literalMutationString16641",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeNonAscii_literalMutationString24158_literalMutationString24176_literalMutationString24251",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 257,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeAttributeValue_literalMutationString7882_literalMutationString8116_literalMutationString13845",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 245,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeNonAscii_literalMutationString24158_literalMutationString24173",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 254,
+          "locationMethod": "escapeAttributeValue"
+        }
+      ]
+    },
+    {
+      "name": "escapeElementContentNonAscii_literalMutationString23293_literalMutationString23306_literalMutationString23361",
+      "nbAssertionAdded": 2,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.NonVoidMethodCallMutator",
+          "lineNumber": 295,
+          "locationMethod": "escapeElementContent"
+        }
+      ]
+    }
+  ]
+}

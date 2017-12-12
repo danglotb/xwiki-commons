@@ -1,0 +1,128 @@
+{
+  "nbMutantKilledOriginally": 482,
+  "name": "org.xwiki.xml.internal.html.DefaultHTMLCleanerTest",
+  "nbOriginalTestCases": 20,
+  "testCases": [
+    {
+      "name": "duplicateIds_literalMutationString126869",
+      "nbAssertionAdded": 16,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        }
+      ]
+    },
+    {
+      "name": "restrictedHtml_literalMutationString151445",
+      "nbAssertionAdded": 16,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        }
+      ]
+    },
+    {
+      "name": "duplicateIds_literalMutationString126877_literalMutationString127107",
+      "nbAssertionAdded": 12,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        }
+      ]
+    },
+    {
+      "name": "restrictedHtml_sd151492_failAssert39_literalMutationString155560_literalMutationString164222",
+      "nbAssertionAdded": 8,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        }
+      ]
+    },
+    {
+      "name": "restrictedHtml_sd151475_failAssert22_literalMutationString153936",
+      "nbAssertionAdded": 9,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 1,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 202,
+          "locationMethod": "getDefaultCleanerTransformations"
+        }
+      ]
+    },
+    {
+      "name": "explicitFilterList_literalMutationString147359_literalMutationString147431_literalMutationString148233",
+      "nbAssertionAdded": 4,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        }
+      ]
+    },
+    {
+      "name": "restrictedHtml_sd151457_failAssert5_literalMutationString152801",
+      "nbAssertionAdded": 9,
+      "nbInputAdded": 2,
+      "nbMutantKilled": 2,
+      "mutantsKilled": [
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.InlineConstantMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        },
+        {
+          "ID": "org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator",
+          "lineNumber": 162,
+          "locationMethod": "getDefaultCleanerProperties"
+        }
+      ]
+    }
+  ]
+}
