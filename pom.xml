@@ -122,10 +122,10 @@
     <ivy.version>2.4.0</ivy.version>
 
     <!-- By default Checkstyle, Backward compatibility check, Enforcer, License plugins, etc are on -->
-    <xwiki.checkstyle.skip>false</xwiki.checkstyle.skip>
-    <xwiki.revapi.skip>false</xwiki.revapi.skip>
-    <xwiki.jacoco.skip>false</xwiki.jacoco.skip>
-    <xwiki.enforcer.skip>false</xwiki.enforcer.skip>
+    <xwiki.checkstyle.skip>true</xwiki.checkstyle.skip>
+    <xwiki.revapi.skip>true</xwiki.revapi.skip>
+    <xwiki.jacoco.skip>true</xwiki.jacoco.skip>
+    <xwiki.enforcer.skip>true</xwiki.enforcer.skip>
     <xwiki.enforcer.enforce-plugins.skip>${xwiki.enforcer.skip}</xwiki.enforcer.enforce-plugins.skip>
     <xwiki.enforcer.enforce-jcl-log4j-isolation.skip>${xwiki.enforcer.skip}</xwiki.enforcer.enforce-jcl-log4j-isolation.skip>
     <xwiki.enforcer.enforce-glasshfish-jaxb.skip>${xwiki.enforcer.skip}</xwiki.enforcer.enforce-glasshfish-jaxb.skip>
@@ -143,7 +143,7 @@
     <xwiki.enforcer.enforce-javase-dependencies.skip>${xwiki.enforcer.skip}</xwiki.enforcer.enforce-javase-dependencies.skip>
     <xwiki.enforcer.enforce-upper-bounds.skip>${xwiki.enforcer.skip}</xwiki.enforcer.enforce-upper-bounds.skip>
     <xwiki.enforcer.enforce-java.skip>${xwiki.enforcer.skip}</xwiki.enforcer.enforce-java.skip>
-    <xwiki.license.skip>false</xwiki.license.skip>
+    <xwiki.license.skip>true</xwiki.license.skip>
 
     <!-- By default we don't run pitest/descartes since it's taking too long to execute to be executed after all
          commits. Thus the idea is that the CI will set this as a system property to run it using a scheduler. It can
